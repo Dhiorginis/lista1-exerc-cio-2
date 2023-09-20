@@ -1,0 +1,22 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Autor(a)    : dhiorginis
+// Data atual  : 20/09/2023
+Var
+data,dia,mes,ano:inteiro
+
+
+Inicio
+escreval("Digite a data no formato ddmmaa")
+leia(data)
+
+dia <- data div 10000
+mes <- data % 10000 div 100
+ano <- data % 100
+
+escreval("dia:", dia)//20
+escreval("mês:", mes)//09
+escreval("ano:", ano)//23
+
+
+Fimalgoritmo
